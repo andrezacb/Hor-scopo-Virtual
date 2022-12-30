@@ -1,0 +1,176 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+@font-face {
+    font-family: 'rumble' ;
+    src: url('font/Rumble\ Brave.otf');
+}
+
+@font-face {
+    font-family: 'seagram';
+    src: url('font/Seagram\ tfb.ttf');
+}
+@font-face {
+    font-family: 'Cat';
+    src: url('font/CATChilds.ttf');
+}
+body{
+    background-image: url('imagem/footer.gif');
+    background-repeat: no-repeat;
+   background-size:cover;
+   background-attachment: fixed;
+}
+
+header{
+    border: 3px solid black;
+    background-image: url('imagem/header.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.logo{
+    content: url('imagem/logo.png');
+    width: 150px;
+    height: 100px;
+}
+
+.menu{
+    width: 100%;
+}
+    
+
+.campo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    background-color: rgb(208, 179, 255);
+    opacity: 0.4;
+   
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+}
+
+
+img:hover{
+    box-shadow:6px 6px 10px rgb(98, 0, 255);
+}
+
+span{
+    margin-left: 2%;
+    font-family: 'seagram';
+}
+
+section.zodiaco{
+    height: 100vh !important;
+}
+.zodiaco{
+    background-image: url('imagem/fundo.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.modulo{
+    background-image: url('imagem/footer.gif');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.cadastro{
+    font-family: 'Cat';
+    color: aliceblue;
+    margin-left:34%;
+    border-radius: 7px;
+    border: 10px double rgb(0, 0, 0);
+    width: 390px;
+    height: 640px;
+    background-image: linear-gradient(45deg, #8c00ff, #af00fa,#ffa600,#ffda0a,#ff840a );
+    opacity: 0.9;
+    box-shadow:5px 5px 10px#000000;
+}
+.resultado{
+    border: 6px double black;
+    width: 300px;
+    height: 100px;
+    margin-left: 10%;
+    border-radius: 8px;
+    background-image: linear-gradient(45deg, #8c00ff, #af00fa,#ffa600,#ffda0a,#ff840a );
+}
+#res{
+    font-family: 'rumble';
+    font-size: 20px;
+}
+
+input.dados{
+    font-family: 'Cat';
+    font-weight: 600;
+    font-size: 16px;
+    width: 230px;
+    height: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 3%;
+    margin-top: 1%;
+    text-align: center;
+    border-radius: 8px;
+    border: 5px double rgb(255, 111, 0);
+    box-shadow: 3px 3px rgb(255, 149, 0);
+}
+h1>img{
+    width: 390px;
+    height: 140px;
+   
+}
+.dados:focus{
+    outline: 0;
+    box-shadow: 0000;
+    background: rgba(212, 20, 255, 0.574);
+}
+
+.conteudo{
+    text-align: center;
+}
+
+label{
+    font-size: 20px;
+    color: #000000;
+    font-weight: 600;
+    
+    
+}
+
+h2{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+button{
+    font-family: 'seagram';
+    font-size: 23px;
+    width: 200px;
+    height: 39px;
+    margin-bottom: 5%;
+    border-radius: 3px;
+    padding-bottom: 6px;
+    cursor: pointer; 
+    font-weight: 600;
+    background-image: linear-gradient(45deg,darkorange,rgb(255, 199, 29),rgb(233, 7, 222),rgb(123, 0, 255),rgb(138, 3, 216));
+    border: 5px double black;
+    margin-right:5% ;
+    box-shadow: 5px 5px 10px black;
+}
+
+button:hover{
+    border: 6px double black;
+    background: rgba(192, 75, 255, 0.405);
+}

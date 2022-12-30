@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(255, 255, 255);
+    
+}
+
+@font-face {
+    font-family: 'Cat';
+    src: url('font/CATChilds.ttf');
+}
+@font-face {
+    font-family: 'Seagram';
+    src: url('font/Seagram\ tfb.ttf');
+}
+
+section{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+section#aries{
+    background-image:linear-gradient(45deg,rgb(255, 0, 0),darkred,rgb(177, 0, 0),rgb(255, 0, 0));
+}
+
+img.CardFront{
+    padding: 5px;
+    width: 360px;
+    height: 600px;
+    display: flex;
+    margin-left: 2%; 
+    margin-right: 2%; 
+    border: 10px double black;
+    border-radius: 10px;
+    background: #f4ddb6;
+}
+.estrutura{
+    display: flex;
+    text-align: center;
+    font-family: 'Cat';
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.PersonalidadeAries{
+    border: 10px double black;
+    width: 380px;
+    height: 590px;
+    margin-right: 5%; 
+    border-radius: 10px;
+    background-image: linear-gradient(45deg,rgb(255, 130, 99),#FBE1B4,#FBE1B4,rgb(255, 130, 99)); 
+    padding-right: 15px; 
+    padding-bottom: 20px;
+}
+
+.SobreAries{
+    border: 10px double black;
+    width: 370px;
+    height: 590px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg,rgb(255, 130, 99),#FBE1B4,#FBE1B4,rgb(255, 130, 99)); 
+    padding: 5px;
+    padding-bottom: 16px;
+}
+
+img.Cabeça{
+    width: 200px;
+}
+
+img.Logo{
+    margin-right: 100%;
+}
+
+h2{
+    font-family: 'Seagram';
+}
+
+p{
+    margin-bottom: 3%;
+    margin-left: 2%;
+}
+
+section#touro{
+    background-image: linear-gradient(45deg,#baf200d9,#07c400,#089903,#86fc08db);  
+}
+.PersonalidadeTouro{
+    border: 10px double black;
+    width: 380px;
+    height: 590px;
+    margin-right: 5%;  
+    border-radius: 10px; 
+    padding-right: 15px; 
+    padding-bottom: 19px;
+    background-image: linear-gradient(45deg,#baf200d9,#EBFFBB,#EBFFBB,#86fc08db);  
+}
+
+.SobreTouro{
+    border: 10px double black;
+    width: 380px;
+    height: 590px;
+    border-radius: 10px;
+    background: #ebffbb;  
+    padding-right: 15px; 
+    padding-bottom: 19px;
+    background-image: linear-gradient(45deg,#baf200d9,#EBFFBB,#EBFFBB,#86fc08db);  
+}
+section#gemeos{
+    background-image:linear-gradient(45deg,#ff81c6,#17ebe1,#00a6ff,#f793ae); 
+}
+.PersonalidadeGemeos{
+    border: 10px double black;
+    width: 380px;
+    height: 590px;
+    margin-right: 5%;  
+    border-radius: 10px; 
+    padding-right: 20px; 
+    padding-bottom: 19px;
+    background-image:linear-gradient(45deg,#f29fcd,#9cc5ec,#5eb7d7,#faadc2); 
+}
+.SobreGemeos{
+    border: 10px double black;
+    width: 400px;
+    height: 610px;
+    margin-right: 5%;  
+    border-radius: 10px; 
+    padding-right: 20px;
+    background-image:linear-gradient(45deg,#f29fcd,#9cc5ec,#5eb7d7,#faadc2); 
+}
+
+section#cancer{
+    background: #f9c62b;
+}
+
+.PersonalidadeCancer{
+    border: 10px double black;
+    width: 380px;
+    height: 590px;
+    margin-right: 5%;  
+    border-radius: 10px; 
+    padding-right: 20px; 
+    padding-bottom: 19px;
+    background-image:linear-gradient(45deg,rgb(255, 238, 0),rgb(255, 128, 0),rgb(255, 140, 0),rgb(255, 238, 0));
+}
+
+.SobreCancer{
+    border: 10px double black;
+    width: 380px;
+    height: 590px;
+    margin-right: 5%;  
+    border-radius: 10px; 
+    padding-right: 20px; 
+    padding-bottom: 19px;
+    background-image:linear-gradient(45deg,rgb(255, 238, 0),rgb(250, 125, 0),rgb(255, 140, 0),rgb(255, 238, 0));
+}
+
+section#leao{
+    background-image:linear-gradient(45deg,#f4ad29,rgb(139, 30, 0),rgb(240, 171, 42));
+}
+.PersonalidadeLeao{
+    border: 10px double black;
+    width: 380px;
+    height: 590px;
+    margin-right: 5%;  
+    border-radius: 10px; 
+    padding-right: 20px; 
+    padding-bottom: 19px;
+    background-image:linear-gradient(45deg,#ffe551,#DA9249,#ECA357,#ffe139);
+}
+.SobreLeao{
+    border: 10px double black;
+    width: 380px;
+    height: 590px;
+    margin-right: 5%;  
+    border-radius: 10px; 
+    padding-right: 20px; 
+    padding-bottom: 19px;
+    background-image:linear-gradient(45deg,#ffe551,#DA9249,#ECA357,#ffe139);
+}
+section#virgem{
+    background-image:linear-gradient(45deg,#bb53ef,#7d3ec6,#a02af5,#e073fb);
+}
+
+.PersonalidadeVirgem{
+    border: 10px double black;
+    width: 380px;
+    height: 590px;
+    margin-right: 5%;  
+    border-radius: 10px; 
+    padding-right: 20px; 
+    padding-bottom: 19px;
+    background-image:linear-gradient(45deg,#b92dff,#bf95ef,#bf95ef,#d25eef);
+}
+
+.SobreVirgem{
+    border: 10px double black;
+    width: 380px;
+    height: 590px;
+    margin-right: 5%;  
+    border-radius: 10px; 
+    padding-right: 20px; 
+    padding-bottom: 19px;
+    background-image:linear-gradient(45deg,#b92dff,#bf95ef,#bf95ef,#d25eef);
+}
+section#libra{
+    background-image:linear-gradient(45deg,#e8b620,#9ddb38,rgb(142, 211, 96),#f4c127);
+}
+.PersonalidadeLibra{
+    border: 10px double black;
+    width: 380px;
+    height: 590px;
+    margin-right: 5%;  
+    border-radius: 10px; 
+    padding-right: 20px; 
+    padding-bottom: 19px;
+    background-image:linear-gradient(45deg,#dfb538,#ffd864,#c9db9e,#b4f151,rgb(176, 251, 125),#ebc349,#ebc349);
+}
+
+.SobreLibra{
+    border: 10px double black;
+    width: 380px;
+    height: 590px;
+    margin-right: 5%;  
+    border-radius: 10px; 
+    padding-right: 20px; 
+    padding-bottom: 19px;
+    background-image:linear-gradient(45deg,#dfb538,#ffd864,#c9db9e,#b4f151,rgb(176, 251, 125),#ebc349,#ebc349);
+}
+section#escorpiao{
+    background-image: linear-gradient(45deg, #ff6200,#b2120c,#ff6200);
+}
+.PersonalidadeEscorpiao{
+    border: 10px double black;
+    width: 380px;
+    height: 590px;
+    margin-right: 5%;  
+    border-radius: 10px; 
+    padding-right: 20px; 
+    padding-bottom: 19px;
+    background-image: linear-gradient(150deg,#ff2600,rgb(246, 199, 57),rgb(250, 202, 57),rgb(255, 191, 0),#fc3200);
+
+}
+
+.SobreEscorpiao{
+    border: 10px double black;
+    width: 380px;
+    height: 590px;
+    margin-right: 5%;  
+    border-radius: 10px; 
+    padding-right: 20px; 
+    padding-bottom: 19px;
+    background-image: linear-gradient(150deg,#ff2600,rgb(255, 191, 0),#fc3200);
+}
+section#sagitario{
+    background-image: linear-gradient(120deg,#ff9d42,#d172ee,#ee7280,#fbf300);
+}
+.PersonalidadeSagitario{
+    border: 10px double black;
+    width: 380px;
+    height: 590px;
+    margin-right: 5%;  
+    border-radius: 10px; 
+    padding-right: 20px; 
+    padding-bottom: 19px;
+    background-image: linear-gradient(155deg,#ffbf01,#ee7280,#d983f6,#fbf300);
+}
+
+.SobreSagitario{
+    border: 10px double black;
+    width: 380px;
+    height: 590px;
+    margin-right: 5%;  
+    border-radius: 10px; 
+    padding-right: 20px; 
+    padding-bottom: 19px;
+    background-image: linear-gradient(155deg,#ffbf01,#ee7280,#d983f6,#fbf300);
+}
+section#capricornio{
+    background-image: linear-gradient(45deg,#b8ff03,#89ff8d,#68fa66,#edf909);
+}
+.PersonalidadeCapri{
+    border: 10px double black;
+    width: 380px;
+    height: 590px;
+    margin-right: 5%;  
+    border-radius: 10px; 
+    padding-right: 20px; 
+    padding-bottom: 19px;
+    background-image: linear-gradient(110deg,#09f9c9,#a4fdc9,#90f7a6,#00f9f9);
+}
+.SobreCapri{
+    border: 10px double black;
+    width: 380px;
+    height: 590px;
+    margin-right: 5%;  
+    border-radius: 10px; 
+    padding-right: 20px; 
+    padding-bottom: 19px;
+    background-image: linear-gradient(110deg,#09f9c9,#a4fdc9,#90f7a6,#00f9f9);
+}
+
+section#peixes{
+    background-image: linear-gradient(45deg,#a245ff,#c4f0fa,#fb99f1,#8643fb);
+}
+
+.PersonalidadePeixes{
+    border: 10px double black;
+    width: 380px;
+    height: 590px;
+    margin-right: 5%;  
+    border-radius: 10px; 
+    padding-right: 20px; 
+    padding-bottom: 19px;
+    background-image: linear-gradient(45deg,#5cffc9,#80fffb,#c373ee,#a87ef8,#6dffb6);
+}
+.SobrePeixes{
+    border: 10px double black;
+    width: 380px;
+    height: 590px;
+    margin-right: 5%;  
+    border-radius: 10px; 
+    padding-right: 20px; 
+    padding-bottom: 19px;
+    background-image: linear-gradient(45deg,#5cffc9,#80fffb,#a87ef8,#c373ee,#6dffb6);
+}
+section#aquario{
+    background-image: linear-gradient(45deg,#9ecbfc,#3c8dc3,#867ffe,#82fefa);
+}
+.PersonalidadeAquario{
+    border: 10px double black;
+    width: 380px;
+    height: 590px;
+    margin-right: 5%;  
+    border-radius: 10px; 
+    padding-right: 20px; 
+    padding-bottom: 19px;
+    background-image: linear-gradient(45deg,#74fcdd,#60b3ea,#a49ff9,#82fefa);
+}
+.SobreAquario{
+    border: 10px double black;
+    width: 380px;
+    height: 590px;
+    margin-right: 5%;  
+    border-radius: 10px; 
+    padding-right: 20px; 
+    padding-bottom: 19px;
+    background-image: linear-gradient(45deg,#74fcdd,#60b3ea,#a49ff9,#82fefa);
+}

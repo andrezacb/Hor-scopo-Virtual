@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <title>Descubra Seu Signo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="campo">
+            <div class="logo"></div>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="resultado.html#aries" target="_blank" title="Áries Horóscopo"><img src="imagem/aries.png" alt="imagem do zodíaco"></a>
+                        <span>Áries</span>
+                    </li> <br>
+                    <li>
+                        <a href="resultado.html#touro" title="Touro Horóscopo" target="_blank"><img src="imagem/touro.png" alt="imagem do zodíaco"></a>
+                        <span>Touro</span>
+                    </li>
+                    <li>
+                        <a href="resultado.html#gemeos" title="Gêmeos Horóscopo"target="_blank" ><img src="imagem/gemeos.png" alt="imagem do zodíaco"></a>
+                        <span>Gêmeos</span>
+                    </li>
+                    <li>
+                        <a href="resultado.html#cancer" title="Câncer Horóscopo" target="_blank"><img src="imagem/cancer.png" alt="imagem do zodíaco"></a>
+                        <span>Câncer</span>
+                    </li>
+                    
+                    <li>
+                        <a href="resultado.html#leao" title="Leão Horóscopo" target="_blank"><img src="imagem/leao.png" alt="imagem do zodíaco"></a>
+                        <span>Leão</span>
+                    </li>
+                    <li>
+                        <a href="resultado.html#virgem" title="Virgem Horóscopo" target="_blank"><img src="imagem/virgem.png" alt="imagem do zodíaco"></a>
+                        <span>Virgem</span>
+                    </li>
+                    
+                    <li>
+                        <a href="resultado.html#libra" title="LibraHoróscopo" target="_blank"><img src="imagem/libra.png" alt="imagem do zodíaco"></a>
+                        <span>Libra</span>
+                    </li>
+                    
+                    <li>
+                        <a href="resultado.html#escorpiao" title="Escorpião Horóscopo" target="_blank"><img src="imagem/escorpiao.png" alt="imagem do zodíaco"></a>
+                        <span>Escorpião</span>
+                    </li>
+                    <li>
+                        <a href="resultado.html#sagitario" title="Sagitario Horóscopo" target="_blank"><img src="imagem/sagitario.png" alt="imagem do zodíaco"></a>
+                        <span>Sagitario</span>
+                    </li>
+                    <li>
+                        <a href="resultado.html#capricornio" title="Capricornio Horóscopo"target="_blank" ><img src="imagem/capricornio.png" alt="imagem do zodíaco"></a>
+                        <span>Capricornio</span>
+                    </li>
+                    
+                    <li>
+                        <a href="resultado.html#aquario" title="Aquario Horóscopo"target="_blank" ><img src="imagem/aquario.png" alt="imagem do zodíaco"></a>
+                        <span>Aquario</span>
+                    </li>
+    
+                    <li>
+                        <a href="resultado.html#peixes" title="Peixes Horóscopo" target="_blank"><img src="imagem/peixes.png" alt="imagem do zodíaco"></a>
+                        <span>Peixes</span>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="zodiaco">
+        
+        </section>
+
+        <section class="modulo">
+            <br>
+            <br>
+            <div class="cadastro">
+                <h1><img src="imagem/slogan.png" class="slogan"></h1>
+                <div class="conteudo">
+                    <br>
+                    <label for="nome">Nome Completo:</label> <br>
+                    <input type="text" name="nome" id="nome" class="dados" required>
+                    <br>
+                    <label for="email">Insira seu e-mail:</label> <br>
+                    <input type="email" name="email" id="email" class="dados">
+                    <br>
+                    <label for="sexo">Sexo:</label>
+                    <input type="radio" name="sexo1" id="masculino" checked>
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name="sexo1" id="feminino">
+                    <label for="feminino">Feminino</label>
+                    <br>
+                    <br>
+                    <h2>Insira sua data e horario de nascimento:</h2>
+                    <br>
+                    <input type="datetime-local" name="" id="datanascimento" class="dados" value="2022-04-26T23:59">
+                    <br>
+                    <div class="resultado">
+                        <label id="res"></label>
+                    </div>
+                    <br>
+                    <button onclick="ok()">Verificar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="ascendente.js"></script>
+</body>
+</html>
